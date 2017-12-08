@@ -6,7 +6,7 @@ Below you will find some information on how to perform common tasks.<br>
 
 ## Live Demo
 
-You will be able to see the demo [here](https://leticiarezende.com/nvidia).
+You will be able to see the demo [here](http://leticiarezende.com/nvidia).
 
 ## Basic Requirements
 
