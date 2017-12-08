@@ -28,6 +28,8 @@ class FiboInput extends Component {
       type="number" 
       onChange={this.handleChange} 
       placeholder="Type a number"
+      min="0"
+      max="99"
       />
     );
   }
