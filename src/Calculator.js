@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Calculator.css';
 import classnames from 'classnames';
 import logo from './assets/images/logo.png';
 import FiboInput from './components/FiboInput.js';
@@ -74,12 +74,13 @@ class FiboCalc extends Component {
             </button>
           </form>
         </div>
-        <div id="result" className={classnames(
-            'container',
-            {
-              'show'   : this.state.showResult
-            }
-          )}>
+        <div id="result" 
+        className={classnames(
+          'container',
+          {
+            'show': this.state.showResult
+          }
+        )}>
           {this.state.message}
         </div>
       </div>
